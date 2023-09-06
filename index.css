@@ -1,0 +1,273 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html
+{
+    scroll-behavior: smooth;
+    transition: .5s;
+}
+
+/* Section starts here */
+
+section
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.418)), url("https://bootstrapmade.com/demo/templates/Plato/assets/img/hero-bg.jpg");
+    height: 700px;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+
+
+}
+
+section h1
+{
+    color:white;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size:40px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+section p
+{
+    color:white;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+section a
+{
+    text-decoration: none;
+    color:white;
+    border:1px solid rgb(70, 151, 70);
+    padding:10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .4s;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+
+
+
+}
+
+section a:hover
+{
+    background-color:rgb(70, 151, 70);
+
+}
+
+/* Section  Ends here */
+
+/* Nav bar starts here */
+nav
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border:1px solid red; */
+    height:70px;
+    background-color: black;
+    color:white;
+    gap:20px;
+    position: sticky;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index: 10000000000;
+
+}
+
+nav ul{
+    display: flex;
+    gap:30px;
+}
+
+nav li
+{
+    display: inline-block;
+    list-style-type: none;
+    gap:20px;
+    font-size: 20px;
+}
+nav li a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+
+}
+
+nav li a:hover
+{
+    color:rgb(70, 151, 70);
+}
+
+
+/* Nav bar starts here */
+
+/* Section 2 starts  */
+
+
+
+.sec-section
+{
+    background-color: white;
+    height: 600px;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.center
+{
+    width:80%;
+    /* border:2px solid green; */
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+
+.w45
+{
+    width:48%;
+    height: 450px;
+    /* border:3px solid blue; */
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+   
+
+
+}
+
+.w45 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.w45 h1
+{
+  
+
+}
+
+.content-main
+{
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+
+}
+
+.w45-inside
+{
+    width: 49%;
+    /* border:2px solid green; */
+  
+    /* display: flex;
+    justify-content: center;
+    
+    align-items: center; */
+
+}
+
+.icon-main
+{
+    /* border:1px solid red; */
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.w45-icon
+{
+    /* border:1px solid yellow; */
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.w45-icon-con
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 20px;
+
+}
+
+.w45-icon-con i 
+{
+    color:rgb(70, 151, 70);
+    font-size:40px;
+    margin: 10px 20px
+}
+
+.w45-icon-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.w45-icon-content  h4
+{
+    font-size:20px;
+}
+
+.w45-icon-content p
+{
+    font-size: 15px;
+    color: #848484;
+    line-height: 20px;
+}
+    
+
+
+
+
+/* Section 2 ends  */
+
+/* Section 3 starts here */
+
+.third-class
+
+
+
+
+
+/* Section 3 Ends here */
+
